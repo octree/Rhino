@@ -1,6 +1,6 @@
 # Rhino
 
-一个简单的浏览器引擎（Just a toy）。
+一个简单的浏览器排版引擎（Just a toy）。
 
 1. 解析 css 和 html 代码，生成 dom 和 stylesheet
 2. 把 dom 和 stylesheet 组装成 style tree
