@@ -10,9 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var html: String = #"""
+    <html>
+        <div id="head" class="border"></div>
+        <div class="body">
+            <div class="center border"></div>
+            <div class="center border bottom"></div>
+        </div>
+    </html>
+    """#
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print(HTMLParser.parse(html))
     }
 
 

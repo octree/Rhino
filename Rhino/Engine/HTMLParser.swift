@@ -99,9 +99,9 @@ public class HTMLParser: Parser {
         return attributes
     }
     
-    public func parse(_ text: String) -> Node {
+    public static func parse(_ text: String) -> Node {
         
-        let nodes = parseNodes()
+        let nodes = HTMLParser(input: text).parseNodes()
         
         if nodes.count == 1 {
             
