@@ -22,7 +22,7 @@ public final class StyledTreeBuilder {
             map = elt.specifiedValues(stylesheet: stylesheet)
         }
         
-        let children = root.children.map { StyledTreeBuilder.buildStyledTree(root: $0, stylesheet: stylesheet) }
+        let children = root.children.map { buildStyledTree(root: $0, stylesheet: stylesheet) }
         return StyledNode(node: root,
                           specifiedValues: map,
                           children: children)
