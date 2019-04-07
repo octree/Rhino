@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     var css: String = #"""
     html {
         width: 300px;
-        height: 400px;
         padding: 20px;
         margin-left: 10px;
         margin-top: 60px;
@@ -31,16 +30,13 @@ class ViewController: UIViewController {
         display: block;
     }
 
-
     #head {
-        width: 200px;
         height: 40px;
         background: #ffa500;
         display: block;
     }
     
     .body {
-        width: 200px;
         background: #ffff00;
         display: block;
     }

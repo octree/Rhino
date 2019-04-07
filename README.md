@@ -7,3 +7,32 @@
 3. 根据 style tree 生成 layout tree
 4. 计算布局
 5. 使用 Native 组件渲染
+
+
+## DEMO
+
+```swift
+
+class ViewController: UIViewController {
+
+    // html code
+    let html = #"""
+    """#
+
+    /// css styles
+    let css = #"""
+    """#
+        
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        /// render
+        Renderer.render(html: html, css: css, in: view)
+    }
+
+}
+
+```
+
+
+
