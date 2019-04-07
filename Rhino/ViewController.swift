@@ -68,8 +68,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(HTMLParser.parse(html))
-        print(CSSParser.parse(css))
+//        print(HTMLParser.parse(html))
+//        print(CSSParser.parse(css))
+        
+        Renderer.render(html: html, css: css, in: view)
     }
 
 

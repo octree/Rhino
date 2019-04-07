@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2885B0E2259F6DD0050A408 /* Render.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2885B0D2259F6DD0050A408 /* Render.swift */; };
 		C2A067FA2259E7FE00399F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A067F92259E7FE00399F33 /* AppDelegate.swift */; };
 		C2A067FC2259E7FE00399F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A067FB2259E7FE00399F33 /* ViewController.swift */; };
 		C2A067FF2259E7FE00399F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A067FD2259E7FE00399F33 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2885B0D2259F6DD0050A408 /* Render.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Render.swift; sourceTree = "<group>"; };
 		C2A067F62259E7FE00399F33 /* Rhino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rhino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A067F92259E7FE00399F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2A067FB2259E7FE00399F33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				C2A068192259E8C300399F33 /* Engine */,
 				C2A067F92259E7FE00399F33 /* AppDelegate.swift */,
+				C2885B0D2259F6DD0050A408 /* Render.swift */,
 				C2A067FB2259E7FE00399F33 /* ViewController.swift */,
 				C2A067FD2259E7FE00399F33 /* Main.storyboard */,
 				C2A068002259E7FF00399F33 /* Assets.xcassets */,
@@ -238,6 +241,7 @@
 				C2A067FA2259E7FE00399F33 /* AppDelegate.swift in Sources */,
 				C2A068292259F3AC00399F33 /* Layout.swift in Sources */,
 				C2A068272259F19700399F33 /* Style.swift in Sources */,
+				C2885B0E2259F6DD0050A408 /* Render.swift in Sources */,
 				C2A0681B2259E8DD00399F33 /* Dom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
