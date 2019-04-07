@@ -60,14 +60,6 @@ public extension Node {
     }
 }
 
-extension String {
-    
-    static func `repeat`(_ char: Character, count: Int) -> String {
-        
-        return String([Character](repeating: char, count: count))
-    }
-}
-
 extension Node {
     
     private func prettyPrint(indentation: String) -> String {
