@@ -253,7 +253,7 @@ public extension LayoutBox {
         let paddingLeft = style.lookup("padding-left", "padding", zero)
         let paddingRight = style.lookup("padding-right", "padding", zero)
         
-        let total = [marginLeft, marginRight, paddingLeft, paddingRight, width].map { $0.px }.reduce(0, +)
+        let total = [marginLeft, marginRight, paddingLeft, paddingRight, borderLeft, borderRight, width].map { $0.px }.reduce(0, +)
         
         if width != auto && total > containingBlock.content.width {
             
@@ -323,9 +323,9 @@ public extension LayoutBox {
         dimensions.padding.top = style.lookup("padding-top", "padding", zero).px
         dimensions.padding.bottom = style.lookup("padding-bottom", "padding", zero).px
         
-        dimensions.content.x = containingBlock.content.x + dimensions.margin.left + dimensions.padding.left
+        dimensions.content.x = containingBlock.content.x + dimensions.margin.left + dimensions.padding.left + dimensions.border.left
         
-        dimensions.content.y = containingBlock.content.y + dimensions.margin.top + dimensions.padding.top
+        dimensions.content.y = containingBlock.content.y + dimensions.margin.top + dimensions.padding.top + dimensions.border.top
     }
     
     private func layoutChildren() {
